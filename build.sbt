@@ -1,6 +1,6 @@
 name := "base-plugin"
 
-version := "0.1"
+version := "0.2"
 
 sbtPlugin := true
 
@@ -17,7 +17,7 @@ scmInfo := Some(ScmInfo(url("https://github.com/moglideveloper/BasePlugin"), "gi
 
 licenses += ("MIT", url("https://opensource.org/licenses/MIT"))
 
-//below is not yet done
+addSbtPlugin("io.github.davidmweber" % "flyway-sbt" % "6.5.0")
 
 crossPaths := false
 
